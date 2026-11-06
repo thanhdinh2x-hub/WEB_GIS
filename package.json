@@ -1,0 +1,19 @@
+{
+  "name": "web_gis",
+  "version": "1.0.0",
+  "description": "Đây là bản **chuyển đổi từ file Python duy nhất** sang project Express.js, tách backend và frontend. Chức năng chính vẫn là chọn điểm trên bản đồ, tra cứu thửa đất qua OneHousing API, hiển thị thông tin và vẽ polygon nếu API cung cấp hình học.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0"
+  }
+}
